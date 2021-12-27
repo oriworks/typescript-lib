@@ -1,6 +1,6 @@
 {
   "name": "typescript-lib",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "private": false,
   "description": "Template typescript library",
   "main": "dist/index.js",
@@ -10,11 +10,12 @@
     "prepare": "husky install",
     "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watch",
-    "test:staged": "yarn test --findRelatedTests"
+    "test:staged": "yarn test --findRelatedTests",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oriworks/typescript-lib.git"
+    "url": "https://github.com/oriworks/typescript-lib.git"
   },
   "keywords": [
     "template",
@@ -44,6 +45,7 @@
     "lint-staged": "^12.1.3",
     "rollup": "^2.61.1",
     "ts-jest": "^27.1.2",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "semantic-release": "^18.0.1"
   }
 }
